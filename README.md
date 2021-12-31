@@ -87,7 +87,7 @@ Sorry for the inconvenience.
 
 When using premake, you may want to point GTA_VC_RE_DIR environment variable to GTA Vice City root folder if you want the executable to be moved there via post-build script.
 
-Clone the repository with `git clone --recursive -b reVC https://github.com/Jai-JAP/re-GTA.git reVC`. Then `cd reVC` into the cloned repository.
+Clone the repository with `git clone --recursive -b reVC https://github.com/Huga22118/Reverse-Engineered-III.git reVC`. Then `cd reVC` into the cloned repository.
 
 <details><summary>Linux Premake</summary>
 

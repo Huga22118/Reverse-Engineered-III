@@ -97,7 +97,7 @@ Sorry for the inconvenience.
 
 When using premake, you may want to point GTA_III_RE_DIR environment variable to GTA3 root folder if you want the executable to be moved there via post-build script.
 
-Clone the repository with `git clone --recursive https://github.com/Jai-JAP/re-GTA.git`. Then `cd re-GTA` into the cloned repository.
+Clone the repository with `git clone --recursive https://github.com/Huga22118/re-GTA.git`. Then `cd re-GTA` into the cloned repository.
 
 <details><summary>Linux Premake</summary>
 

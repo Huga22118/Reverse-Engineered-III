@@ -337,6 +337,24 @@ void VehicleCheat(int model)
 	CPad::bHasPlayerCheated = true;
 }
 
+/* 
+   (Miami) This Suicide Cheat are already added on GTA VC "ICANTTAKEITANYMORE", the improvement is that the
+   blood and armour will drain instantly and vehicle now explodes when Tommy is in the vehicle. 
+*/
+void SuicideTommyCheat()
+{
+	CHud::SetHelpMessage(TheText.Get("CHEAT1"), true);
+	CPlayerPed* suicidetommy = FindPlayerPed();
+	CVehicle* suicidetommyvehicle = FindPlayerVehicle();
+
+	suicidetommy->m_fHealth = 0.0f;
+	suicidetommy->m_fArmour = 0.0f;
+	if(suicidetommyvehicle) 
+	{
+		((CAutomobile*)suicidetommyvehicle)->BlowUpCar(suicidetommy);
+		suicidetommy->m_fArmour = 0.0f;
+	}
+}
 
 void BlowUpCarsCheat()
 {
